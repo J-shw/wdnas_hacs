@@ -1,12 +1,13 @@
 {
-  "domain": "integration_blueprint",
-  "name": "Integration blueprint",
+  "domain": "wdnas_hacs",
+  "name": "WD Nas",
+  "requirements": ["wdnas-client>=0.6.0"],
   "codeowners": [
-    "@ludeeus"
+    "@J-shw"
   ],
   "config_flow": true,
-  "documentation": "https://github.com/ludeeus/integration_blueprint",
-  "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/ludeeus/integration_blueprint/issues",
+  "documentation": "https://github.com/J-shw/wdnas_hacs",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/J-shw/wdnas_hacs/issues",
   "version": "0.0.0"
 }
